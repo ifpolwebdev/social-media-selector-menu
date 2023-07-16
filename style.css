@@ -21,8 +21,14 @@ body {
   cursor: pointer;
 }
 
+.menu .fas {
+  transition: transform 0.2s;
+}
+
 .menu p {
   margin: 0 10px;
+  display: flex;
+  align-items: center;
 }
 
 .social-lists {
